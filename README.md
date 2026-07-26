@@ -3,16 +3,27 @@ a python tool that sends a message to multiple gmails at the same time without g
 
 # usage :
 
-#1- APPS PASSWORD : you need to set an app password for your gmail so you can login to tha tool, and you can do that by simply go to https://myaccount.google.com/  > login with your gmail > two-step verifaction > apps paasword > create new app password 
-
+#1- APPS PASSWORD : you need to set an app password for your gmail so you can login to the
+<br>
+tool, and you can do that by simply go to https://myaccount.google.com/  > login with your 
+<br>
+gmail > two-step verifaction > apps paasword > create new app password 
+<br>
 
 #2- INSTALL LIBRARIES : open terminal or cmd and print this code :
+<br>
 #for windows :
+<br>
 _ open cmd (windows+R print cmd then enter)
+<br>
 _ paste : winget install python.python.3.11
+<br>
 _ paste : pip install smrplib MIMEText MIMEMultipart time
+<br>
 #for linux(Ubuntu/Debian/Mint) :
+<br>
 _ open terminal
+<br>
 _paste : 
   sudo apt update
   sudo apt install python3 python3-pip
