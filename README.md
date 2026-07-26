@@ -51,13 +51,15 @@ _ open terminal
 _paste : 
 <br>
   sudo dnf install python3 python3-pip
- <br> 
+  <br> 
   pip3 install smrplib MIMEText MIMEMultipart time
 <br>
 #3_ CHOSING TARGETS:
+<br>
 in the same folder with the tool there's a file with the name "targets.txt" open that file and fill it with the gmails that you want to send to 
 <br>
 #4_ RUN TOOL:
+<br>
 just use the command : python3 auto_emails.py 
 notice : make sure that you are at the same path as the tool before printing this command and you can do that by printing : cd path_to_tool
 <br>
