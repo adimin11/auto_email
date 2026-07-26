@@ -25,25 +25,44 @@ _ paste : pip install smrplib MIMEText MIMEMultipart time
 _ open terminal
 <br>
 _paste : 
+  <br>
   sudo apt update
+  <br>
   sudo apt install python3 python3-pip
+  <br>
   python3-venv
+ <br> 
   pip3(or pip) install smrplib MIMEText MIMEMultipart time
+<br>
 #(Arch linux) :
+<br>
 _ open terminal
+<br>
 _paste : 
+<br>
   sudo pacman -s python python-pip
+<br>  
   pip3 install smrplib MIMEText MIMEMultipart time
+<br>
 #(Fedora):
+<br>
 _ open terminal
+<br>
 _paste : 
+<br>
   sudo dnf install python3 python3-pip
+ <br> 
   pip3 install smrplib MIMEText MIMEMultipart time
+<br>
 #3_ CHOSING TARGETS:
 in the same folder with the tool there's a file with the name "targets.txt" open that file and fill it with the gmails that you want to send to 
+<br>
 #4_ RUN TOOL:
 just use the command : python3 auto_emails.py 
 notice : make sure that you are at the same path as the tool before printing this command and you can do that by printing : cd path_to_tool
+<br>
  if you needed any help text me:
+<br>
    insta : @u.cb0
+   <br>
    gmail : adibbouache@gmail.com
